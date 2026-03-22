@@ -117,6 +117,13 @@ function injectFooter() {
                 <span>hello@spotrize.com</span>
               </li>
             </ul>
+            <h3 style="margin-top: 2rem;">Follow Us</h3>
+            <div class="footer-socials">
+              <a href="#" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="#" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
           </div>
         </div>
         <div class="footer-bottom">
