@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - SpotRize</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .portfolio-filters {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 3rem;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Page Header -->
+  <section class="page-header" style="padding-bottom: 40px;">
+    <div class="container">
+      <h1 class="fade-in-up">Our <span class="text-gradient">Portfolio</span></h1>
+      <p class="fade-in-up" style="transition-delay: 0.1s;">A showcase of our digital excellence across diverse industries.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Grid -->
+  <section class="section">
+    <div class="container">
+      <div class="portfolio-filters fade-in-up">
+        <button class="btn btn-primary" style="padding: 0.5rem 1.5rem;">All</button>
+        <button class="btn btn-outline" style="padding: 0.5rem 1.5rem;">Real Estate</button>
+        <button class="btn btn-outline" style="padding: 0.5rem 1.5rem;">Insurance</button>
+        <button class="btn btn-outline" style="padding: 0.5rem 1.5rem;">Fashion</button>
+        <button class="btn btn-outline" style="padding: 0.5rem 1.5rem;">E-Commerce</button>
+      </div>
+
+      <div class="portfolio-grid fade-in-up" style="transition-delay: 0.2s;">
+        <!-- Real Estate -->
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1073&auto=format&fit=crop" alt="Real Estate UI">
+          <div class="portfolio-overlay">
+            <h4>Modern Real Estate Portal</h4>
+            <p>Real Estate</p>
+          </div>
+        </div>
+        
+        <!-- Fashion -->
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=1171&auto=format&fit=crop" alt="Fashion App">
+          <div class="portfolio-overlay">
+            <h4>Luxury Boutique App</h4>
+            <p>Fashion</p>
+          </div>
+        </div>
+
+        <!-- E-Commerce -->
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1170&auto=format&fit=crop" alt="E-commerce Space">
+          <div class="portfolio-overlay">
+            <h4>Next-Gen Storefront</h4>
+            <p>E-commerce</p>
+          </div>
+        </div>
+
+        <!-- Insurance -->
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1170&auto=format&fit=crop" alt="Insurance Dashboard">
+          <div class="portfolio-overlay">
+            <h4>Claims Management Dashboard</h4>
+            <p>Insurance</p>
+          </div>
+        </div>
+
+        <!-- Additional E-Commerce -->
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=1170&auto=format&fit=crop" alt="Retail e-store">
+          <div class="portfolio-overlay">
+            <h4>B2B Supplier Aggregator</h4>
+            <p>E-commerce</p>
+          </div>
+        </div>
+
+        <!-- Additional Real Estate -->
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1170&auto=format&fit=crop" alt="Property Listing">
+          <div class="portfolio-overlay">
+            <h4>Property Explorer iOS</h4>
+            <p>Real Estate</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

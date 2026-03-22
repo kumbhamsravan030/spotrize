@@ -1,0 +1,11 @@
+{
+  "name": "spotrize-ui",
+  "version": "1.0.0",
+  "description": "SpotRize Website UI",
+  "scripts": {
+    "dev": "npx serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - SpotRize</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Page Header -->
+  <section class="page-header" style="padding-bottom: 40px;">
+    <div class="container">
+      <h1 class="fade-in-up">Get in <span class="text-gradient">Touch</span></h1>
+      <p class="fade-in-up" style="transition-delay: 0.1s;">Have a project in mind or need training assistance? Let's talk.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" style="padding-top: 40px;">
+    <div class="container">
+      <div class="contact-wrapper">
+        
+        <!-- Contact Info -->
+        <div class="contact-info-card fade-in-up">
+          <h2 style="color: var(--white); margin-bottom: 2rem;">Contact Information</h2>
+          <p style="color: rgba(255,255,255,0.8); margin-bottom: 3rem;">Reach out to us for any business inquiries, service details, or training registrations. We are here to help!</p>
+          
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <h4>Our Location</h4>
+              <p>123 Innovation Drive,<br>Tech City, TX 75001</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div>
+              <h4>Email Us</h4>
+              <p>hello@spotrize.com<br>support@spotrize.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-info-item">
+            <div class="contact-info-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div>
+              <h4>Call Us</h4>
+              <p>+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form fade-in-up" style="transition-delay: 0.2s;">
+          <h2 style="margin-bottom: 2rem;">Send us a Message</h2>
+          <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Message sent successfully! (Mockup)');">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" class="form-control" placeholder="+1 (234) 567-8900" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <select id="subject" class="form-control" required style="appearance: auto;">
+                <option value="">Select an option</option>
+                <option value="development">Web/App Development</option>
+                <option value="marketing">Digital Marketing</option>
+                <option value="training">Training & Placement</option>
+                <option value="visa">Visa & Immigration</option>
+                <option value="other">Other Inquiry</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" class="form-control" placeholder="How can we help you?" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Map Integration -->
+      <div class="map-container fade-in-up" style="transition-delay: 0.3s;">
+        <!-- Using a placeholder iframe for a real Google Map -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.211756475751!2d-96.8049008853381!3d32.89255268093769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c20d7ac73e357%3A0xe9fd4ea7c355cff1!2sTech%20City%20Texas!5e0!3m2!1sen!2sus!4v1683403565922!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ - SpotRize</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .faq-item {
+      background: var(--white);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      margin-bottom: 1rem;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+    .faq-item summary {
+      padding: 1.5rem 2rem;
+      font-weight: 600;
+      font-size: 1.125rem;
+      cursor: pointer;
+      list-style: none;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: var(--transition);
+    }
+    .faq-item summary:hover {
+      color: var(--primary);
+      background: var(--bg-alt);
+    }
+    .faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+    .faq-item summary::after {
+      content: '\\f078';
+      font-family: 'Font Awesome 6 Free';
+      font-weight: 900;
+      color: var(--primary);
+      transition: var(--transition);
+    }
+    .faq-item[open] summary::after {
+      transform: rotate(180deg);
+    }
+    .faq-item[open] summary {
+      border-bottom: 1px solid var(--border);
+      color: var(--primary);
+    }
+    .faq-content {
+      padding: 1.5rem 2rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      background: var(--bg-alt);
+    }
+    .faq-content p {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Page Header -->
+  <section class="page-header" style="padding-bottom: 40px;">
+    <div class="container">
+      <h1 class="fade-in-up">Frequently Asked <span class="text-gradient">Questions</span></h1>
+      <p class="fade-in-up" style="transition-delay: 0.1s;">Find quick answers to your queries below.</p>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section" style="padding-top: 40px;">
+    <div class="container" style="max-width: 800px;">
+      <div class="fade-in-up" style="transition-delay: 0.2s;">
+        
+        <details class="faq-item">
+          <summary>What services does SpotRize offer?</summary>
+          <div class="faq-content">
+            <p>SpotRize specializes in a wide array of digital solutions including Web Development, App Development, Digital Marketing, AI/IT Solutions, Business Consultancy, and Visa & Immigration services. Additionally, we offer expert-led training and placement programs in IT Software and Medical Coding.</p>
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>Do you provide job placement after training?</summary>
+          <div class="faq-content">
+            <p>Yes, absolutely! Both our IT Software and Medical Coding training programs come with 100% placement assistance. We have dedicated teams that help with resume building, interview preparation, and direct placement opportunities.</p>
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>Can you redesign an existing website?</summary>
+          <div class="faq-content">
+            <p>Yes. We offer UI/UX modernization and complete redesign services to enhance your existing web platform's aesthetic, responsiveness, and performance using modern technologies.</p>
+          </div>
+        </details>
+        
+        <details class="faq-item">
+          <summary>How long does a typical mobile app project take?</summary>
+          <div class="faq-content">
+            <p>The timeline heavily depends on the required features and complexity. A standard MVP (Minimum Viable Product) takes around 3 to 4 months from conception to deployment. We follow agile development methodologies to ensure timely delivery.</p>
+          </div>
+        </details>
+
+        <details class="faq-item">
+          <summary>How can I request a quote?</summary>
+          <div class="faq-content">
+            <p>You can request a personalized quote by filling out the form on our <a href="contact.html" style="color: var(--primary); text-decoration: underline;">Contact Page</a>. One of our consultants will get back to you within 24 hours.</p>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
